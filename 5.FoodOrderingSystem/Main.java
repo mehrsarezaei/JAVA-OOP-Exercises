@@ -15,7 +15,7 @@ public class Main {
         String name = input.nextLine();
         StringBuilder orderStatus1 = new StringBuilder();
 
-        Customer customer = new Customer(name);
+
         System.out.println("Hello what kind of meal are you looking for?\n1. Burger\n2. Pizza\n3. Salad\n4. Pasta\n5. Drinks\n6. Steak" );
         orderStatus = input.nextLine();
         for (char c : orderStatus.toCharArray()){
